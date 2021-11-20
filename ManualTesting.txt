@@ -1,0 +1,60 @@
+Duel Bots Test Plan
+Overview:
+    Test the functionality of the App
+
+Links:
+    http://localhost:3000/
+
+Test Criteria:
+    Text and styling is appearing
+    See All Bots button works
+    Add to Duo Button works
+    Draw button works
+    Duel button works
+    Play Again button works
+    Wins and Losses counter works
+    You can only choose two bots
+        
+Entry Criteria:
+    Test Criteria provided
+    Running Version provided for testing
+    Computer for testing
+
+Exit Criteria:
+    All high priority tests have passed
+    The allotted time is up
+
+Other Details:
+    Environment
+    Should run on any modern browser(post I.E. 8 and similar), and be fully 
+        functional, and reasonably styled.
+    Chrome is the recommended browser.
+    Windows 10
+    Desktop PC
+---------------------------------------------------------------------------
+Testing the Draw button functionality
+Description:
+    This test will verify that the bots cards appear when the Draw Button is clicked
+
+Steps:
+    Navigate to http://localhost:3000/
+    Click on the Draw Button
+Test Postconditions:    
+    Draw Button will display bot cards for selection
+Adam Ray:
+    Test passed, bot cards displayed when Draw Button was clicked.    
+---------------------------------------------------------------------------
+See All Bots Bug Report
+Description:
+    The See All Bots button exists, but when clicked is not displaying anything and an error is thrown.       
+Steps to Reproduce:
+    Navigate to http://localhost:3000/  
+    Click on the See All Bots button
+Expected Result:
+    All bots should be displayed  
+Actual Result:
+    The See All Bots button exists, but when clicked is not displaying anything and an error is thrown.  
+Environment:
+    Windows 10
+    Desktop PC
+    Microsoft Edge Version 95.0.1020.53
