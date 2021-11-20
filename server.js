@@ -135,6 +135,8 @@ app.get('/api/player', (req, res) => {
 
 const port = process.env.PORT || 3000
 
+app.use(rollbar.errorHandler());
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`)
 })
